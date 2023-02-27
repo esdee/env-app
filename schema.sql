@@ -11,7 +11,8 @@ INSERT INTO customers (
   customerID, companyName, contactName
 )
 VALUES
-(1, 'Alfreds Futterkiste', 'Maria Anders'),
-(4, 'Around the Horn', 'Thomas Hardy'),
-(11, 'Bs Beverages', 'Victoria Ashworth'),
-(13, 'Bs Beverages', 'Random Name');
+  (1, 'Alfreds Futterkiste', 'Maria Anders'),
+  (4, 'Around the Horn', 'Thomas Hardy'),
+  (11, 'Bs Beverages', 'Victoria Ashworth'),
+  (13, 'Bs Beverages', 'Random Name')
+;
