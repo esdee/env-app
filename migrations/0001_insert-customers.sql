@@ -1,12 +1,4 @@
-DROP TABLE IF EXISTS customers;
-
-CREATE TABLE customers (
-  customerID INT,
-  companyName TEXT,
-  contactName TEXT,
-  PRIMARY KEY (`CustomerID`)
-);
-
+-- Migration number: 0001 	 2023-02-27T22:23:42.366Z
 INSERT INTO customers (
   customerID, companyName, contactName
 )
