@@ -13,6 +13,8 @@
   "scripts": {
     "start": "wrangler dev",
     "start-local": "wrangler dev --local --env local --persist",
-    "deploy": "wrangler publish"
+    "deploy-production": "wrangler publish --env production",
+    "migrate-local": "wrangler d1 migrations apply  env_var_db  --env local --local",
+    "migrate-production": "wrangler d1 migrations apply env_var_db  --env production"
   }
 }
