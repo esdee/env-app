@@ -6,3 +6,4 @@
 - Github Actions for deploy
 - KV bindings
 - D1 bindings
+- D1 migrations
